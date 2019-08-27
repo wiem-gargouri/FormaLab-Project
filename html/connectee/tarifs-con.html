@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
 
     <title>Tarifs</title>
-    <link rel="stylesheet" href="../css/accueil.css">
+    <link rel="stylesheet" href="../../css/accueil.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
@@ -13,22 +14,22 @@
 <body class="bodynoir">
     <!--Header-->
     <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color bg-danger fixed-top">
-        <a class="navbar-brand" href="http://localhost/salle%20de%20sport/html/acceil.php">Gymr</a>
+        <a class="navbar-brand" href="acceuil-connectee.html">Gymr</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="http://localhost/salle%20de%20sport/html/acceil.php">Home
+                    <a class="nav-link" href="acceuil-connectee.html">Home
                 <span class="sr-only">(current)</span>
               </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/salle%20de%20sport/html/acceil.php#cours">Cours</a>
+                    <a class="nav-link" href="http://localhost/salle%20de%20sport/html/connectee/acceuil-connectee.html#cours">Cours</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/salle%20de%20sport/html/acceil.php#coachs">Coachs</a>
+                    <a class="nav-link" href="http://localhost/salle%20de%20sport/html/connectee/acceuil-connectee.html#coachs">Coachs</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">contact</a>
@@ -37,9 +38,10 @@
                     <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown
               </a>
                     <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-                        <a class="dropdown-item" href="planning.html">planning</a>
-                        <a class="dropdown-item" href="tarifs.html">tarifs</a>
-
+                        <a class="dropdown-item far fa-calendar-alt" href="planning-con.html">Planning</a>
+                        <a class="dropdown-item fas fa-dollar-sign" href="tarifs-con.html">Tarifs</a>
+                        <a class="dropdown-item		far fa-bell" href="offrespecial.html"> Offre Special pour vous </a>
+                        <a class="dropdown-item 	 " href="article.html"> Articles</a>
                     </div>
                 </li>
             </ul>
@@ -50,8 +52,9 @@
                         <i class="fas fa-user"></i>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right dropdown-default bg-danger" aria-labelledby="navbarDropdownMenuLink-333">
-                        <a class="dropdown-item" href="http://localhost/salle%20de%20sport/html/acceil.php#home">login</a>
-                        <a class="dropdown-item" href="inscrit.html">sign Up ! </a>
+                        <a class="dropdown-item" href="profil.php  fas fa-address-book">My profil</a>
+                        <a class="dropdown-item far fa-heart" href="goals.php">My goals </a>
+                        <a class="dropdown-item" href="../acceil.php">Deconnexion </a>
 
                     </div>
                 </li>
@@ -61,7 +64,7 @@
     <!--End header -->
     <!--Main -->
     <h1 class="m-5 pt-5 text-light">
-        <spam class="text-danger mt-5 pt-3">Nos </spam>Tarifs</h1>
+        <spam class="text-danger">Nos </spam>Tarifs</h1>
     <!---->
     <div class="container mt-5">
 
@@ -79,10 +82,8 @@
                         <li>Aérobic</li>
                         <h4 class="text-center">ou </h4>
                         <li>Dance </li>
-
                     </ul>
-
-
+                    <button type="button" class="btn btn-lg btn-block btn-outline-danger">Buy now</button>
                 </div>
             </div>
             <!--2nd card -->
@@ -91,7 +92,6 @@
                     <h4 class="my-0 font-weight-normal">Pro</h4>
                 </div>
                 <div class="card-body">
-
                     <h1 class="card-title pricing-card-title">80 DT <small class="text-muted">/ mois</small></h1>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li> Gymnastique </li>
@@ -99,9 +99,8 @@
                         <li>karate kid</li>
                         <h4 class="text-center">ou </h4>
                         <li>kung fu kid </li>
-
                     </ul>
-
+                    <button type="button" class="btn btn-lg btn-block btn-outline-danger  ">Buy Now</button>
                 </div>
             </div>
             <!--3rd card -->
@@ -112,16 +111,13 @@
                 <div class="card-body">
                     <h1 class="card-title pricing-card-title">DT 200 <small class="text-muted">/ mois</small></h1>
                     <ul class="list-unstyled mt-5  mb-4">
-
                         <li class="text-center mt-5  pt-5 pb-5">cardio + cours </li>
-
                     </ul>
-
+                    <button type="button" class="btn btn-lg btn-block btn-outline-danger ">Buy Now</button>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- footer -->
     <div id="contact" class="mt-5">
 
@@ -149,7 +145,6 @@
         </footer>
 
     </div>
-    <!--End footer-->
     <script src="https://kit.fontawesome.com/yourcode.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
